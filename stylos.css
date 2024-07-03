@@ -98,17 +98,21 @@ p{
 
 @media(min-width:100px) and (max-width:480px){
     body{
-        background-color: yellow;
+        background-color: chartreuse;
        
     }
     .nombre{
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 300;
     }
     .descripcion{
         margin: 15px 0;
         font-weight: 200;
-        font-size: 0.8rem;
+        font-size: 0.5rem;
+    }
+    .zeno{
+        width: 100px;
+        height: 100px;
     }
 }
 
