@@ -135,7 +135,7 @@ footer div{
 
 @media(min-width:100px) and (max-width:480px){
     body{
-        background-color: white;
+        background-color: antiquewhite;
        
     }
     .nombre{
