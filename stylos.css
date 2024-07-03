@@ -96,6 +96,37 @@ p{
     text-align: justify;
 }
 
+footer{
+    display: flex;
+    background-color: var(--color1);
+    color: white;
+    
+    width: 100%;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-footer{
+    max-width: var(--max-wigth);
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.botton{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
 @media(min-width:100px) and (max-width:480px){
     body{
         background-color: white;
@@ -103,7 +134,7 @@ p{
     }
     .nombre{
         font-size: 1.5rem;
-        font-weight: 400;
+        font-weight: 500;
     }
     .descripcion{
         margin: 15px 0;
@@ -112,13 +143,26 @@ p{
     }
     .zeno{
         width: 200px;
-        height: 200px;
+        height: 400px;
     }
 }
 
 @media(min-width:481px) and (max-width:768px){
     body{
         background-color: burlywood;
+    }
+    .nombre{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .descripcion{
+        margin: 15px 0;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    .zeno{
+        width: 400px;
+        height: 400px;
     }
 }
 
