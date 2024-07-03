@@ -23,6 +23,7 @@
 body{
     background-color: var(--secod-color);
    
+   
 }
 
 header{
@@ -116,6 +117,11 @@ footer div{
 
 }
 
+.zeno{
+    width: 250px;
+    height: 400px;
+}
+
 .botton{
     background-color: white;
     color: black;
@@ -142,8 +148,8 @@ footer div{
         font-size: 1rem;
     }
     .zeno{
-        width: 200px;
-        height: 400px;
+        width: 150px;
+        height: 350px;
     }
 }
 
@@ -158,11 +164,11 @@ footer div{
     .descripcion{
         margin: 15px 0;
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .zeno{
-        width: 400px;
-        height: 400px;
+        width: 200px;
+        height: 300px;
     }
 }
 
