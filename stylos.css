@@ -91,7 +91,7 @@ nav{
 }
 
 
-@media(min-width:320px) and (max-width:480px){
+@media(min-width:100px) and (max-width:480px){
     body{
         background-color: aquamarine;
     }
