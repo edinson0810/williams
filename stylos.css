@@ -91,6 +91,11 @@ nav{
     font-size: 1.5rem;
     text-align: justify;
 }
+
+h2{
+    font-size: 2rem;
+    font-weight: var(--font-weight);
+}
 p{
     margin: 20px 0;
     font-weight: 400;
@@ -135,7 +140,7 @@ footer div{
 
 @media(min-width:100px) and (max-width:480px){
     body{
-        background-color: antiquewhite;
+        background-color: white;
        
     }
     .nombre{
@@ -175,9 +180,7 @@ footer div{
         width: 150px;
         height: 200px;
     }
-    header{
-        width: 100%;
-    }
+   
 }
 
 @media(min-width:769px) and (max-width:1024px){
