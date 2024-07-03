@@ -155,7 +155,7 @@ footer div{
 
 @media(min-width:481px) and (max-width:768px){
     body{
-        background-color: burlywood;
+        background-color: yellow;
     }
     .nombre{
         font-size: 1.5rem;
