@@ -6,7 +6,7 @@
 
 :root{
     --main-color: black;
-    --secod-color:yellow;
+    --secod-color:white;
     --color1:blue;
     --fon-size:18px;
     --max-wigth: 1000px;
@@ -21,13 +21,13 @@
 }
 
 body{
-    background-color: var(--color1);
+    background-color: var(--secod-color);
    
 }
 
 header{
     display: flex;
-   background-color: var(--secod-color);
+   background-color: var(--color1);
    color: var(--main-color);
 }
 
