@@ -88,14 +88,27 @@ nav{
     margin: 20px 0;
     font-weight: 400;
     font-size: 1.5rem;
+    text-align: justify;
 }
-
+p{
+    margin: 20px 0;
+    font-weight: 400;
+    text-align: justify;
+}
 
 @media(min-width:100px) and (max-width:480px){
     body{
-        background-color: aquamarine;
-        font-size: 1rem;
-        margin-right: 10px;
+        background-color: yellow;
+       
+    }
+    .nombre{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .descripcion{
+        margin: 15px 0;
+        font-weight: 200;
+        font-size: 0.8rem;
     }
 }
 
