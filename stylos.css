@@ -158,7 +158,7 @@ footer div{
         background-color: burlywood;
     }
     .nombre{
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 400;
     }
     .descripcion{
@@ -167,8 +167,11 @@ footer div{
         font-size: 1rem;
     }
     .zeno{
-        width: 200px;
-        height: 300px;
+        width: 150px;
+        height: 200px;
+    }
+    header{
+        width: 100%;
     }
 }
 
